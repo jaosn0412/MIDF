@@ -4,8 +4,13 @@
   "description": "Try to do something new.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "cleaver --debug README.md",
+    "start": "cleaver README.md"
   },
   "author": "Jason",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cleaver": "^0.8.7"
+  }
 }
