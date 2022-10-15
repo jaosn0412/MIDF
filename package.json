@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "debug": "cleaver --debug README.md",
-    "start": "cleaver README.md"
+    "debug": "cleaver --debug presentation.md",
+    "start": "cleaver presentation.md"
   },
   "author": "Jason",
   "license": "ISC",
