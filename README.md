@@ -43,3 +43,14 @@
 | 15. |  |  |
 | 16. |  |  |
 | 17. |  |  |
+
+Step for getting changes from remote:
+1: git fetch origin
+2: git pull origin [branch name]
+
+Step for pushing changes into remote:
+1: git status
+2: git add [file name]
+3: git commit -m "[commit messages]"
+4: git push origin [branch name]:laughing:
+:satisfied:
