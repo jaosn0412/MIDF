@@ -1,4 +1,4 @@
-##<u>Today’s Learn [12 October 2022]</u>
+##<u>Learn From Internship *[Since 11 October 2022]*</u>
 
 *CVE-2021-44228: Proof-of-Concept for Critical Apache Log4j Remote Code Execution Vulnerability Available (Log4Shell) – This issue happens on 6 December 2021.*
 
@@ -17,6 +17,11 @@
 •	cowsay -f turtle hello: Change cow to turtle and let turtle say ‘hello’.
 •	>: Copy the output into the file and become contents with replace its contents.
 •	>>: Copy the output into the file and become contents without change its contents.
+•	ssh-keygen: Used to generate public key and private key for SSH.
+•	id_rsa: A private key. The default name for SSH key pairs is id_rsa , and that name will allow an SSH client to locate the key automatically. 
+•	id_rsa pub: A public key.
+•   git status: To show the status of each files.
+•   git commit: Captures a snapshot of the project's currently staged changes.
 
 **Vocabulary:**
 | No | Command | Explanation |
@@ -33,4 +38,8 @@
 | 10. | npm | npm is a package manager for the JavaScript programming language maintained by npm. |
 | 11. | init | Initializer. To set up a new or existing package. |
 | 12. | cd | Get into the directory if with the directory name. If not, then it will back to home page. |
-
+| 13. | git | To keep track every changes of the file. |
+| 14. | drwx | d:directory; r:read; w:write; x:execute |
+| 15. |  |  |
+| 16. |  |  |
+| 17. |  |  |
