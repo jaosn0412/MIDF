@@ -19,6 +19,10 @@ output: presentation-cleaver.html
 - Installed WSL2 on windows
 - learned about navigating in linux with terminal commands
 
+---
+
+### 12 October commands
+
 | Command | Description | Remarks |
 |---|---|---|
 |`shutdown -r -t 5`| restarts the computer after 5 seconds | this is a windows command |
