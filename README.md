@@ -22,10 +22,8 @@
 •	id_rsa pub: A public key.
 •   git status: To show the status of each files.
 •   git commit: Captures a snapshot of the project's currently staged changes.
-•   
-•   
-•   
-•   
+•   npm install: To install dependencies of the project.
+•   npm run debug/ npm run start: To run the project.
 
 **Vocabulary:**
 | No | Command | Explanation |
