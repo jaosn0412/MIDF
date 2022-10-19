@@ -22,6 +22,10 @@
 •	id_rsa pub: A public key.
 •   git status: To show the status of each files.
 •   git commit: Captures a snapshot of the project's currently staged changes.
+•   
+•   
+•   
+•   
 
 **Vocabulary:**
 | No | Command | Explanation |
@@ -52,5 +56,4 @@ Step for pushing changes into remote:
 1: git status
 2: git add [file name]
 3: git commit -m "[commit messages]"
-4: git push origin [branch name]:laughing:
-:satisfied:
+4: git push origin [branch name]
