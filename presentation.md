@@ -13,7 +13,7 @@ output: presentation-cleaver.html
 
 ---
 
-# Week 1 
+# Week 1
 
 ## 11 October 2022 to 14 October 2022
 
@@ -42,7 +42,7 @@ output: presentation-cleaver.html
 ### 13 October 2022
 
 - Pull Request:
-– also referred to as a merge request 
+– also referred to as a merge request
 – is an event that takes place in software development when a contributor/developer is ready to begin the process of merging new code changes with the main project repository.
 
 ---
@@ -71,7 +71,7 @@ Vocabulary:
 
 ---
 
-# Week 2 
+# Week 2
 
 ## 17 October 2022 - 21 October 2022
 
@@ -101,18 +101,41 @@ Vocabulary:
 
 ### 19 October 2022
 
-####  Step for getting changes from remote: 
-- 1: git fetch origin 
+####  Step for getting changes from remote:
+- 1: git fetch origin
 - 2: git pull origin [branch name]
 
-####  Step for pushing changes into remote: 
-- 1: git status 
-- 2: git add [file name] 
-- 3: git commit -m "[commit messages]" 
+####  Step for pushing changes into remote:
+- 1: git status
+- 2: git add [file name]
+- 3: git commit -m "[commit messages]"
 - 4: git push origin [branch name]
 
 ---
 
+### GIT workflow
+
+Below is the git workflow
+
+![Git workflow](Git_Concept.jpg)
+
+Legend on the next page.
+
+---
+
+### GIT workflow
+
+1. `git init`
+1. `git remote add origin`
+1. `git add [filename]`
+1. `git commit -m "msg"`
+1. `git push origin branch`
+1. `fork`
+1. `Pull Request`
+1. `git fetch origin`
+1. `git pull origin branch`
+
+---
 ### More Commands Learned
 
 | Command | Description | Remarks |
