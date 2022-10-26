@@ -119,6 +119,12 @@ Below is the git workflow
 
 ![Git workflow](Git_Concept.jpg)
 
+Legend on the next page.
+
+---
+
+### GIT workflow
+
 1. `git init`
 1. `git remote add origin`
 1. `git add [filename]`
