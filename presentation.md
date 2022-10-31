@@ -136,6 +136,32 @@ Legend on the next page.
 1. `git pull origin branch`
 
 ---
+
+### Distributed vs Centralized Version Control
+
+|Distributed | | Centralized|
+|---|---|---|
+|clone/fork|*download terminology*|checkout|
+| logs, diffs are stored in each clones | *storage* | the logs, diffs are stored in the central server |
+| each clones/fork is the full copy of the repository | *downloaded copy* | each checkout copy is a snapshot of the current version being checked out version |
+
+---
+
+### Distributed vs Centralized Version Control
+
+|Distributed | | Centralized|
+|---|---|---|
+| branching is promoted and easy to perform | *branching* | branching is controlled and require proper management |
+| each clones/for may or may not be similar between clones/fork | *clones/checkout* | each checkout conforms to the central version|
+|git, mercurial|*known version control names*|subversion, cvs, clearcase|
+
+---
+
+### Distributed vs Centralized Version Control
+
+![Distributed vs Centralized](https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-1-4842-8658-6_1/MediaObjects/518274_1_En_1_Fig9_HTML.png)
+
+---
 ### More Commands Learned
 
 | Command | Description | Remarks |
