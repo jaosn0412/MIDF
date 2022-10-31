@@ -136,6 +136,36 @@ Legend on the next page.
 1. `git pull origin branch`
 
 ---
+
+# Week 3
+
+## 25 October 2022 - 28 October 2022
+
+---
+
+### 27 October 2022
+
+| Command | Description | Remarks |
+|---|---|---|
+| `git show` | Used to view expanded details on Git objects such as blobs, trees, tags, and commits.  |  |
+| `git blame` | Used to know who is the editor of each line. | |
+| `git stash save` | git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on. | |
+
+---
+
+# Week 4
+
+## 31 October 2022 - 4 November 2022
+
+---
+
+### 31 October 2022
+
+| Command | Description | Remarks |
+|---|---|---|
+| | | |
+---
+
 ### More Commands Learned
 
 | Command | Description | Remarks |
@@ -146,5 +176,4 @@ Legend on the next page.
 | `git` | To keep track every changes of the file. |  |
 
 ---
-
 # END
