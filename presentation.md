@@ -163,7 +163,34 @@ Legend on the next page.
 
 | Command | Description | Remarks |
 |---|---|---|
-| | | |
+| `git branch --delete <branchname>` | Used to delete certain branch. | |
+| `git branch <branchname>` | Used to add a new branch. | |
+
+---
+
+### 01 November 2022 - 4 November 2022 (Blender)
+
+| Shortcut Key | Description | Remarks |
+|---|---|---|
+| `Shift + A` | Used to add a new object.| E.g. text, shape, etc |
+| `z` | Used to change the view mode. | E.g. Wireframe, render, etc|
+
+---
+
+### AWS Cloud
+
+Below is the 3D diagram of AWS Cloud:
+
+![3D diagram of AWS Cloud](AWS_cloud.jpg)
+
+---
+
+### Torus
+
+Below is the 3D diagram of Torus:
+
+![3D diagram of Torus](Torus.jpg)
+
 ---
 
 ### More Commands Learned
