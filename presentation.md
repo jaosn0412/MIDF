@@ -137,6 +137,22 @@ Legend on the next page.
 
 ---
 
+# Week 3
+
+## 25 October 2022 - 28 October 2022
+
+---
+
+### 27 October 2022
+
+| Command | Description | Remarks |
+|---|---|---|
+| `git show` | Used to view expanded details on Git objects such as blobs, trees, tags, and commits.  |  |
+| `git blame` | Used to know who is the editor of each line. | |
+| `git stash save` | git stash temporarily shelves (or stashes) changes you've made to your working copy so you can work on something else, and then come back and re-apply them later on. | |
+
+---
+
 ### Distributed vs Centralized Version Control
 
 |Distributed | | Centralized|
@@ -162,6 +178,47 @@ Legend on the next page.
 ![Distributed vs Centralized](https://media.springernature.com/lw685/springer-static/image/chp%3A10.1007%2F978-1-4842-8658-6_1/MediaObjects/518274_1_En_1_Fig9_HTML.png)
 
 ---
+
+# Week 4
+
+## 31 October 2022 - 4 November 2022
+
+---
+
+### 31 October 2022
+
+| Command | Description | Remarks |
+|---|---|---|
+| `git branch --delete <branchname>` | Used to delete certain branch. | |
+| `git branch <branchname>` | Used to add a new branch. | |
+
+---
+
+### 01 November 2022 - 4 November 2022 (Blender)
+
+| Shortcut Key | Description | Remarks |
+|---|---|---|
+| `Shift + A` | Used to add a new object.| E.g. text, shape, etc |
+| `z` | Used to change the view mode. | E.g. Wireframe, render, etc|
+
+---
+
+### AWS Cloud
+
+Below is the 3D diagram of AWS Cloud:
+
+![3D diagram of AWS Cloud](AWS_cloud.jpg)
+
+---
+
+### Torus
+
+Below is the 3D diagram of Torus:
+
+![3D diagram of Torus](Torus.jpg)
+
+---
+
 ### More Commands Learned
 
 | Command | Description | Remarks |
