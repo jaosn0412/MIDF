@@ -3,3 +3,6 @@ node_modules
 
 # ignore output files
 presentation-cleaver.html
+
+# ignore svg files
+*.svg
