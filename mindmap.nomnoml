@@ -1,0 +1,12 @@
+[database|todo: description]
+[backoffice|todo: description]
+[frontend|todo: description]
+[backend|todo: description]
+
+[<actor> External User] -> [frontend]
+[<actor> Internal User] -> [frontend]
+[<actor> Admin] -> [backoffice]
+
+[backoffice] -> [backend]
+[backend] -> [database]
+[frontend] -> [backend]
