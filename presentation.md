@@ -28,7 +28,7 @@ output: presentation-cleaver.html
 
 ---
 
-### 12 October 2022 commands
+### 12 October 2022
 
 | Command            | Description                                          | Remarks                          |
 | ------------------ | ---------------------------------------------------- | -------------------------------- |
@@ -47,7 +47,7 @@ output: presentation-cleaver.html
 
 ---
 
-### 13 October 2022 Commands
+### 13 October 2022
 
 | Command             | Description                                                                    | Remarks                    |
 | ------------------- | ------------------------------------------------------------------------------ | -------------------------- |
@@ -128,14 +128,14 @@ Legend on the next page.
 ### GIT workflow
 
 1. `git init`
-1. `git remote add origin`
-1. `git add [filename]`
-1. `git commit -m "msg"`
-1. `git push origin branch`
-1. `fork`
-1. `Pull Request`
-1. `git fetch origin`
-1. `git pull origin branch`
+2. `git remote add origin`
+3. `git add [filename]`
+4. `git commit -m "msg"`
+5. `git push origin branch`
+6. `fork`
+7. `Pull Request`
+8. `git fetch origin`
+9. `git pull origin branch`
 
 ---
 
