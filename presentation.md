@@ -251,34 +251,35 @@ Below is the flowchart of Git Workflow:
 
 ### 14 November 2022
 
-| Command            | Description                    | Remarks |
-| ------------------ | ------------------------------ | ------- |
-| `cat /etc/passwd ` | User available                 |         |
-| `cat /etc/group`   | check user list available      |         |
-| `env`              | To print environment variables |         |
-| `apt-get update`   | To update apt packages.        |         |
+| Command            | Description                           | Remarks |
+| ------------------ | ------------------------------------- | ------- |
+| `cat /etc/passwd ` | User available                        |         |
+| `cat /etc/group`   | check groups available in the system. |         |
+| `env`              | To print environment variables        |         |
+| `apt-get update`   | To update apt packages.               |         |
 
 ---
 
 ### 15 November 2022
 
-| Command                    | Description                          | Remarks                             |
-| -------------------------- | ------------------------------------ | ----------------------------------- |
-| `apt-cache search docker ` | To search packages available in apt  |                                     |
-| `usermod -aG docker $USER` | To add user into docker group.       | docker run --rm -it wernight/funbox |
-| `ps -aux / tasklist`       | To check processors.                 |                                     |
-| `__ &`                     | To send the process into background. |                                     |
+| Command                               | Description                          | Remarks              |
+| ------------------------------------- | ------------------------------------ | -------------------- |
+| `apt-cache search docker `            | To search packages available in apt  |                      |
+| `usermod -aG docker $USER`            | To add user into docker group.       |                      |
+| `ps -aux`                             | To check processors.                 | In Windows: tasklist |
+| `__ &`                                | To send the process into background. |                      |
+| `docker run --rm -it wernight/funbox` | To run the funbox by using docker    |                      |
 
 ---
 
 ### 16 November 2022
 
-| Command      | Description                                                                             | Remarks                                                                  |
-| ------------ | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| `-pm `       | Stand for parents, meaning that no error if existing, make parent directories as needed | m stand for mode, meaning set file mode (as in chmod), not a=rwx - umask |
-| `ug=rwx`     | Mean that user and group can read, write, execute                                       |                                                                          |
-| `kill 'PID'` | Get the PID from `ps aux`, and kill the process specify process ID.                     |                                                                          |
-| `variable`   | In Ubuntu : $a; In Windows: %a%                                                         |                                                                          |
+| Command                                        | Description                                                                             | Remarks                                                                  |
+| ---------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| `makedir -pm ~/parentdir/childdir1/childdir2 ` | Stand for parents, meaning that no error if existing, make parent directories as needed | m stand for mode, meaning set file mode (as in chmod), not a=rwx - umask |
+| `ug=rwx`                                       | Mean that user and group can read, write, execute                                       |                                                                          |
+| `kill 'PID'`                                   | Get the PID from `ps aux`, and kill the process specify process ID.                     |                                                                          |
+| `variable`                                     | In Ubuntu : $a; In Windows: %a%                                                         |                                                                          |
 
 ---
 
@@ -295,6 +296,7 @@ Below is the flowchart of Git Workflow:
 | `docker container ls`                        | To list out all the items in the container        |                                  |
 | `mysql -h 172.17.0.2 -u root -pmy-secret-pw` | To execute the specific database                  | -h: host; -u: user; -p: password |
 | `docker inspect [container_name]`            | To heck the location of Docker’s internal volumes |                                  |
+| `docker run <put your parameters here>`      | To run specify image by using docker              |                                  |
 
 ---
 
@@ -307,6 +309,6 @@ Below is the flowchart of Git Workflow:
 | `cd`      | Get into the directory if with the directory name. | If not, then it will back to home page. |
 | `git`     | To keep track every changes of the file.           |                                         |
 
----
+--
 
 # END
