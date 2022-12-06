@@ -289,14 +289,22 @@ Below is the flowchart of Git Workflow:
 
 ---
 
-### 22 November 2022
-
 | Command                                      | Description                                       | Remarks                          |
 | -------------------------------------------- | ------------------------------------------------- | -------------------------------- |
 | `docker container ls`                        | To list out all the items in the container        |                                  |
 | `mysql -h 172.17.0.2 -u root -pmy-secret-pw` | To execute the specific database                  | -h: host; -u: user; -p: password |
 | `docker inspect [container_name]`            | To heck the location of Docker’s internal volumes |                                  |
 | `docker run <put your parameters here>`      | To run specify image by using docker              |                                  |
+
+---
+
+# Week 8
+
+## 28 November 2022 - 02 December 2022 (Jhipster)
+
+---
+
+### 28 November 2022
 
 ---
 
