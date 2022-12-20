@@ -300,11 +300,29 @@ Below is the flowchart of Git Workflow:
 
 # Week 8
 
-## 28 November 2022 - 02 December 2022 (Jhipster)
+## 28 November 2022 - 23 December 2022 (Jhipster & Docker)
 
 ---
 
-### 28 November 2022
+### 19 December 2022
+
+#### Step for pushing file into docker:
+
+- 1: docker login -u "username"
+- 2: docker tag firstimage YOUR_DOCKERHUB_NAME/firstimage
+- 3: docker push YOUR_DOCKERHUB_NAME/firstimage
+
+#### Step for pulling and run the images from docker:
+
+- 1: docker pull YOUR_DOCKERHUB_NAME/firstimage
+- 2: docker run -p 8081:8080 YOUR_DOCKERHUB_NAME/firstimage
+
+#### Steps for build dockerfile:
+
+- 1: FROM openjdk:latest (Find from docker hub)
+- 2: RUN mkdir /opt/jasonfyp
+- 3: COPY ./build/libs/jason-fyp-0.0.1-SNAPSHOT.jar /opt/jasonfyp
+- 4: CMD java -jar /opt/jasonfyp/jason-fyp-0.0.1-SNAPSHOT.jar
 
 ---
 
