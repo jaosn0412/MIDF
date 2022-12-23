@@ -1,0 +1,171 @@
+<svg version="1.1" baseProfile="full" width="302.3" height="812.5" viewbox="0 0 302.25 812.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+		<desc >
+	[&lt;state&gt; Start] -&gt; [&lt;input&gt; git init]
+	[&lt;input&gt; git init] -&gt; [&lt;input&gt; git remote add origin]
+	[&lt;input&gt; git remote add origin] -&gt; [&lt;input&gt; git add &quot;filename&quot;]
+	[&lt;input&gt; git add &quot;filename&quot;] -&gt; [&lt;input&gt; git commit -m &quot;msg&quot;]
+	[&lt;input&gt; git commit -m &quot;msg&quot;] -&gt; [&lt;input&gt; git push origin branch]
+	[&lt;input&gt; git push origin branch] -&gt; [&lt;abstract&gt; fork] 
+	[&lt;abstract&gt; fork] -&gt; [&lt;choice&gt; Pull Request]
+	[&lt;choice&gt; Pull Request] Yes -&gt; [&lt;input&gt; git fetch origin]
+	[&lt;choice&gt; Pull Request] No -&gt; [&lt;input&gt; git add &quot;filename&quot;]
+	[&lt;input&gt; git fetch origin] -&gt; [&lt;input&gt; git pull origin branch]
+	[&lt;input&gt; git pull origin branch] -&gt; [&lt;state&gt; End]
+	</desc>
+	<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="bold" font-style="normal">
+			<g transform="translate(0.5, 0.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+				<g stroke="transparent" fill="transparent">
+					<rect x="0.0" y="0.0" height="812.5" width="302.3" stroke="none"></rect>
+				</g>
+			<g transform="translate(8, 8)" fill="#33322E">
+					<g transform="translate(20, 20)" fill="#33322E" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+						<path d="M158.8 31.0 L158.75 51 L158.75 64.33333333333333 L158.8 64.3 " fill="none"></path>
+					<path d="M153.4 57.7 L158.8 64.3 L164.1 57.7 L158.8 71.0 Z"></path>
+					<path d="M158.8 102.0 L158.75 122 L158.75 135.33333333333334 L158.8 135.3 " fill="none"></path>
+					<path d="M153.4 128.7 L158.8 135.3 L164.1 128.7 L158.8 142.0 Z"></path>
+					<path d="M158.8 173.0 L158.75 193 L158.75 206.33333333333334 L158.8 206.3 " fill="none"></path>
+					<path d="M153.4 199.7 L158.8 206.3 L164.1 199.7 L158.8 213.0 Z"></path>
+					<path d="M129.8 244.0 L92.5 264 L92.5 277.3333333333333 L92.5 277.3 " fill="none"></path>
+					<path d="M87.2 270.7 L92.5 277.3 L97.8 270.7 L92.5 284.0 Z"></path>
+					<path d="M92.5 315.0 L92.5 335 L92.5 348.3333333333333 L92.5 348.3 " fill="none"></path>
+					<path d="M87.2 341.7 L92.5 348.3 L97.8 341.7 L92.5 355.0 Z"></path>
+					<path d="M92.5 386.0 L92.5 406 L92.5 419.3333333333333 L92.5 419.3 " fill="none"></path>
+					<path d="M87.2 412.7 L92.5 419.3 L97.8 412.7 L92.5 426.0 Z"></path>
+					<path d="M92.5 457.0 L92.5 477 L117.55344440687973 493.35564483920825 L117.6 493.4 " fill="none"></path>
+					<path d="M109.1 494.2 L117.6 493.4 L114.9 485.2 L123.1 497.0 Z"></path>
+					<text x="166.8" y="563.5" stroke="none">Yes</text>
+					<path d="M158.8 543.5 L158.75 563.5 L158.75 576.8333333333334 L158.8 576.8 " fill="none"></path>
+					<path d="M153.4 570.2 L158.8 576.8 L164.1 570.2 L158.8 583.5 Z"></path>
+					<text x="165.0" y="489.0" stroke="none">No</text>
+					<path d="M194.4 497.0 L225 477 L225 441.5 L225 441.5 L225 406 L225 406 L225 370.5 L225 370.5 L225 335 L225 335 L225 299.5 L225 299.5 L225 264 L225 264 L193.55225979088272 247.14875807662395 L193.6 247.1 " fill="none"></path>
+					<path d="M201.9 245.6 L193.6 247.1 L196.9 255.0 L187.7 244.0 Z"></path>
+					<path d="M158.8 614.5 L158.75 634.5 L158.75 647.8333333333334 L158.8 647.8 " fill="none"></path>
+					<path d="M153.4 641.2 L158.8 647.8 L164.1 641.2 L158.8 654.5 Z"></path>
+					<path d="M158.8 685.5 L158.75 705.5 L158.75 718.8333333333334 L158.8 718.8 " fill="none"></path>
+					<path d="M153.4 712.2 L158.8 718.8 L164.1 712.2 L158.8 725.5 Z"></path>
+					<g data-name="Start">
+							<g fill="#eee8d5" stroke="#33322E" data-name="Start">
+								<rect x="133.0" y="0.0" rx="15.5" ry="15.5" height="31.0" width="52.0" data-name="Start"></rect>
+							</g>
+						<g transform="translate(133, 0)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Start">
+								<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Start">
+									<text x="18.0" y="13.5" stroke="none" text-anchor="middle" data-name="Start">Start</text>
+								
+								</g>
+							</g>
+						</g>
+					<g data-name="git init">
+							<g fill="#eee8d5" stroke="#33322E" data-name="git init">
+								<path d="M135.0 71.0 L191.0 71.0 L183.0 102.0 L127.0 102.0 Z" data-name="git init"></path>
+							</g>
+						<g transform="translate(127, 71)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="git init">
+								<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="git init">
+									<text x="24.0" y="13.5" stroke="none" text-anchor="middle" data-name="git init">git init</text>
+								
+								</g>
+							</g>
+						</g>
+					<g data-name="git remote add origin">
+							<g fill="#eee8d5" stroke="#33322E" data-name="git remote add origin">
+								<path d="M79.0 142.0 L246.0 142.0 L238.0 173.0 L71.0 173.0 Z" data-name="git remote add origin"></path>
+							</g>
+						<g transform="translate(71, 142)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="git remote add origin">
+								<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="git remote add origin">
+									<text x="79.5" y="13.5" stroke="none" text-anchor="middle" data-name="git remote add origin">git remote add origin</text>
+								
+								</g>
+							</g>
+						</g>
+					<g data-name="git add &quot;filename&quot;">
+							<g fill="#eee8d5" stroke="#33322E" data-name="git add &quot;filename&quot;">
+								<path d="M90.0 213.0 L235.0 213.0 L227.0 244.0 L82.0 244.0 Z" data-name="git add &quot;filename&quot;"></path>
+							</g>
+						<g transform="translate(82, 213)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="git add &quot;filename&quot;">
+								<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="git add &quot;filename&quot;">
+									<text x="68.5" y="13.5" stroke="none" text-anchor="middle" data-name="git add &quot;filename&quot;">git add &quot;filename&quot;</text>
+								
+								</g>
+							</g>
+						</g>
+					<g data-name="git commit -m &quot;msg&quot;">
+							<g fill="#eee8d5" stroke="#33322E" data-name="git commit -m &quot;msg&quot;">
+								<path d="M14.0 284.0 L179.0 284.0 L171.0 315.0 L6.0 315.0 Z" data-name="git commit -m &quot;msg&quot;"></path>
+							</g>
+						<g transform="translate(6, 284)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="git commit -m &quot;msg&quot;">
+								<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="git commit -m &quot;msg&quot;">
+									<text x="78.5" y="13.5" stroke="none" text-anchor="middle" data-name="git commit -m &quot;msg&quot;">git commit -m &quot;msg&quot;</text>
+								
+								</g>
+							</g>
+						</g>
+					<g data-name="git push origin branch">
+							<g fill="#eee8d5" stroke="#33322E" data-name="git push origin branch">
+								<path d="M8.0 355.0 L185.0 355.0 L177.0 386.0 L0.0 386.0 Z" data-name="git push origin branch"></path>
+							</g>
+						<g transform="translate(0, 355)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="git push origin branch">
+								<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="git push origin branch">
+									<text x="84.5" y="13.5" stroke="none" text-anchor="middle" data-name="git push origin branch">git push origin branch</text>
+								
+								</g>
+							</g>
+						</g>
+					<g data-name="fork">
+							<g fill="#eee8d5" stroke="#33322E" data-name="fork">
+								<rect x="70.0" y="426.0" height="31.0" width="46.0" data-name="fork"></rect>
+							</g>
+						<g transform="translate(70, 426)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="italic" data-name="fork">
+								<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="fork">
+									<text x="15.0" y="13.5" stroke="none" text-anchor="middle" data-name="fork">fork</text>
+								
+								</g>
+							</g>
+						</g>
+					<g data-name="Pull Request">
+							<g fill="#eee8d5" stroke="#33322E" data-name="Pull Request">
+								<path d="M158.8 497.0 L243.5 520.3 L158.8 543.5 L74.0 520.3 Z" data-name="Pull Request"></path>
+							</g>
+						<g transform="translate(102.25, 504.75)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Pull Request">
+								<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Pull Request">
+									<text x="48.5" y="13.5" stroke="none" text-anchor="middle" data-name="Pull Request">Pull Request</text>
+								
+								</g>
+							</g>
+						</g>
+					<g data-name="git fetch origin">
+							<g fill="#eee8d5" stroke="#33322E" data-name="git fetch origin">
+								<path d="M103.0 584.0 L222.0 584.0 L214.0 615.0 L95.0 615.0 Z" data-name="git fetch origin"></path>
+							</g>
+						<g transform="translate(95, 584)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="git fetch origin">
+								<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="git fetch origin">
+									<text x="55.5" y="13.5" stroke="none" text-anchor="middle" data-name="git fetch origin">git fetch origin</text>
+								
+								</g>
+							</g>
+						</g>
+					<g data-name="git pull origin branch">
+							<g fill="#eee8d5" stroke="#33322E" data-name="git pull origin branch">
+								<path d="M79.0 655.0 L246.0 655.0 L238.0 686.0 L71.0 686.0 Z" data-name="git pull origin branch"></path>
+							</g>
+						<g transform="translate(71, 655)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="git pull origin branch">
+								<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="git pull origin branch">
+									<text x="79.5" y="13.5" stroke="none" text-anchor="middle" data-name="git pull origin branch">git pull origin branch</text>
+								
+								</g>
+							</g>
+						</g>
+					<g data-name="End">
+							<g fill="#eee8d5" stroke="#33322E" data-name="End">
+								<rect x="136.0" y="726.0" rx="15.5" ry="15.5" height="31.0" width="46.0" data-name="End"></rect>
+							</g>
+						<g transform="translate(136, 726)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="End">
+								<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="End">
+									<text x="15.0" y="13.5" stroke="none" text-anchor="middle" data-name="End">End</text>
+								
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</svg>

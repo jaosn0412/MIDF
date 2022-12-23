@@ -1,0 +1,234 @@
+<svg version="1.1" baseProfile="full" width="485.3" height="874.5" viewbox="0 0 485.25 874.5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+	<desc >[Admin]M - [&lt;choice&gt; Manage]
+	[&lt;choice&gt; Manage] - 1[Hospital]
+	[Nurse]M - [&lt;choice&gt; Employ]
+	[&lt;choice&gt; Employ] - 1[Hospital]
+	[Nurse]M - [&lt;choice&gt; Works with]
+	[&lt;choice&gt; Works with] - 1[Doctor]
+	[Doctor]M - [&lt;choice&gt; Employ]
+	[&lt;choice&gt; Employ] - 1[Hospital]
+	[Doctor]1 - [&lt;choice&gt; Has]
+	[&lt;choice&gt; Has] - M[Appointment]
+	[Doctor]1 - [&lt;choice&gt; Has]
+	[&lt;choice&gt; Has] - M[Schedule]
+	[Hospital]1 - [&lt;choice&gt; Service]
+	[&lt;choice&gt; Service] - M[Patient]
+	[Patient]1 - [&lt;choice&gt; Has]
+	[&lt;choice&gt; Has] - M[Appointment]
+	[Patient]1 - [&lt;choice&gt; Has]
+	[&lt;choice&gt; Has] - M[Record]
+	[Patient]1 - [&lt;choice&gt; Has]
+	[&lt;choice&gt; Has] - M[Expense]
+	[Appointment]M - [&lt;choice&gt; Including]
+	[&lt;choice&gt; Including] - N[Schedule]</desc>
+	<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="bold" font-style="normal">
+		<g transform="translate(0.5, 0.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+			<g stroke="transparent" fill="transparent">
+				<rect x="0.0" y="0.0" height="874.5" width="485.3" stroke="none"></rect>
+			</g>
+			<g transform="translate(8, 8)" fill="#33322E">
+				<g transform="translate(20, 20)" fill="#33322E" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal">
+					<text x="98.9" y="208.5" stroke="none">M</text>
+					<path d="M90.9 188.5 L90.875 208.5 L90.875 228.5 L90.9 228.5 " fill="none"></path>
+					<text x="139.0" y="307.0" stroke="none">1</text>
+					<path d="M90.9 275.0 L90.875 295 L131.01584507042253 315 L131.0 315.0 " fill="none"></path>
+					<text x="264.5" y="49.0" stroke="none">M</text>
+					<path d="M256.5 29.0 L204.875 51 L204.875 94.25 L204.875 94.25 L204.875 137.5 L204.875 137.5 L204.875 173 L204.875 173 L204.875 208.5 L204.875 208.5 L224.0657514450867 228.5 L224.1 228.5 " fill="none"></path>
+					<text x="180.9" y="307.0" stroke="none">1</text>
+					<path d="M246.4 275.0 L246.375 295 L198.91021126760563 315 L198.9 315.0 " fill="none"></path>
+					<text x="294.3" y="51.0" stroke="none">M</text>
+					<path d="M316.3 31.0 L352.75 51 L352.75 71 L352.8 71.0 " fill="none"></path>
+					<text x="334.8" y="149.5" stroke="none">1</text>
+					<path d="M352.8 117.5 L352.75 137.5 L352.75 157.5 L352.8 157.5 " fill="none"></path>
+					<text x="339.7" y="208.5" stroke="none">M</text>
+					<path d="M331.7 188.5 L304.625 208.5 L277.6885838150289 228.5 L277.7 228.5 " fill="none"></path>
+					<text x="369.5" y="208.5" stroke="none">1</text>
+					<path d="M361.5 188.5 L372.75 208.5 L372.75 251.75 L372.75 251.75 L372.75 295 L372.75 295 L372.75 330.5 L372.75 330.5 L372.75 366 L372.75 366 L372.75 409.25 L372.75 409.25 L372.75 452.5 L372.75 452.5 L372.75 488 L372.75 488 L372.75 523.5 L372.75 523.5 L245.5 557.368076923077 L245.5 557.4 " fill="none"></path>
+					<text x="44.0" y="622.0" stroke="none">M</text>
+					<path d="M175.0 577.3 L66 610 L66 630 L66.0 630.0 " fill="none"></path>
+					<text x="120.1" y="779.5" stroke="none">M</text>
+					<path d="M189.7 590.0 L172 610 L172 645.5 L172 645.5 L172 681 L172 681 L172 724.25 L172 724.25 L172 767.5 L172 767.5 L142.14084507042253 787.5 L142.1 787.5 " fill="none"></path>
+					<text x="170.1" y="366.0" stroke="none">1</text>
+					<path d="M162.1 346.0 L162.125 366 L162.125 386 L162.1 386.0 " fill="none"></path>
+					<text x="140.1" y="464.5" stroke="none">M</text>
+					<path d="M162.1 432.5 L162.125 452.5 L162.125 472.5 L162.1 472.5 " fill="none"></path>
+					<text x="144.1" y="523.5" stroke="none">1</text>
+					<path d="M162.1 503.5 L162.125 523.5 L184.3793352601156 543.5 L184.4 543.5 " fill="none"></path>
+					<text x="256.5" y="622.0" stroke="none">M</text>
+					<path d="M230.8 590.0 L248.5 610 L248.5 630 L248.5 630.0 " fill="none"></path>
+					<text x="375.5" y="622.0" stroke="none">M</text>
+					<path d="M245.5 576.4 L367.5 610 L367.5 630 L367.5 630.0 " fill="none"></path>
+					<text x="74.0" y="681.0" stroke="none">M</text>
+					<path d="M66.0 661.0 L66 681 L66 701 L66.0 701.0 " fill="none"></path>
+					<text x="103.9" y="779.5" stroke="none">N</text>
+					<path d="M66.0 747.5 L66 767.5 L95.85915492957747 787.5 L95.9 787.5 " fill="none"></path>
+					<g data-name="Admin">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Admin">
+							<rect x="58.0" y="158.0" height="31.0" width="65.0" data-name="Admin"></rect>
+						</g>
+						<g transform="translate(58, 158)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Admin">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Admin">
+								<text x="24.5" y="13.5" stroke="none" text-anchor="middle" data-name="Admin">Admin</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Manage">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Manage">
+							<path d="M90.9 229.0 L151.0 251.8 L90.9 275.5 L31.0 251.8 Z" data-name="Manage"></path>
+						</g>
+						<g transform="translate(51, 236.75)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Manage">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Manage">
+								<text x="32.0" y="13.5" stroke="none" text-anchor="middle" data-name="Manage">Manage</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Hospital">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Hospital">
+							<rect x="122.0" y="315.0" height="31.0" width="80.0" data-name="Hospital"></rect>
+						</g>
+						<g transform="translate(122, 315)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Hospital">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Hospital">
+								<text x="32.0" y="13.5" stroke="none" text-anchor="middle" data-name="Hospital">Hospital</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Nurse">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Nurse">
+							<rect x="257.0" y="0.0" height="31.0" width="63.0" data-name="Nurse"></rect>
+						</g>
+						<g transform="translate(257, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Nurse">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Nurse">
+								<text x="23.5" y="13.5" stroke="none" text-anchor="middle" data-name="Nurse">Nurse</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Employ">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Employ">
+							<path d="M246.4 229.0 L302.0 251.8 L246.4 275.5 L191.0 251.8 Z" data-name="Employ"></path>
+						</g>
+						<g transform="translate(209.5, 236.75)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Employ">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Employ">
+								<text x="29.0" y="13.5" stroke="none" text-anchor="middle" data-name="Employ">Employ</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Works with">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Works with">
+							<path d="M352.8 71.0 L429.0 94.3 L352.8 117.5 L276.0 94.3 Z" data-name="Works with"></path>
+						</g>
+						<g transform="translate(301.5, 78.75)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Works with">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Works with">
+								<text x="43.0" y="13.5" stroke="none" text-anchor="middle" data-name="Works with">Works with</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Doctor">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Doctor">
+							<rect x="319.0" y="158.0" height="31.0" width="68.0" data-name="Doctor"></rect>
+						</g>
+						<g transform="translate(319, 158)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Doctor">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Doctor">
+								<text x="26.0" y="13.5" stroke="none" text-anchor="middle" data-name="Doctor">Doctor</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Has">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Has">
+							<path d="M210.3 544.0 L245.5 566.8 L210.3 590.5 L175.0 566.8 Z" data-name="Has"></path>
+						</g>
+						<g transform="translate(186.75, 551.75)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Has">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Has">
+								<text x="15.5" y="13.5" stroke="none" text-anchor="middle" data-name="Has">Has</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Appointment">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Appointment">
+							<rect x="9.0" y="630.0" height="31.0" width="115.0" data-name="Appointment"></rect>
+						</g>
+						<g transform="translate(9, 630)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Appointment">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Appointment">
+								<text x="49.5" y="13.5" stroke="none" text-anchor="middle" data-name="Appointment">Appointment</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Schedule">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Schedule">
+							<rect x="74.0" y="788.0" height="31.0" width="90.0" data-name="Schedule"></rect>
+						</g>
+						<g transform="translate(74, 788)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Schedule">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Schedule">
+								<text x="37.0" y="13.5" stroke="none" text-anchor="middle" data-name="Schedule">Schedule</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Service">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Service">
+							<path d="M162.1 386.0 L218.5 409.3 L162.1 432.5 L106.0 409.3 Z" data-name="Service"></path>
+						</g>
+						<g transform="translate(124.75, 393.75)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Service">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Service">
+								<text x="29.5" y="13.5" stroke="none" text-anchor="middle" data-name="Service">Service</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Patient">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Patient">
+							<rect x="127.0" y="473.0" height="31.0" width="71.0" data-name="Patient"></rect>
+						</g>
+						<g transform="translate(127, 473)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Patient">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Patient">
+								<text x="27.5" y="13.5" stroke="none" text-anchor="middle" data-name="Patient">Patient</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Record">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Record">
+							<rect x="212.0" y="630.0" height="31.0" width="73.0" data-name="Record"></rect>
+						</g>
+						<g transform="translate(212, 630)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Record">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Record">
+								<text x="28.5" y="13.5" stroke="none" text-anchor="middle" data-name="Record">Record</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Expense">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Expense">
+							<rect x="325.0" y="630.0" height="31.0" width="85.0" data-name="Expense"></rect>
+						</g>
+						<g transform="translate(325, 630)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Expense">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Expense">
+								<text x="34.5" y="13.5" stroke="none" text-anchor="middle" data-name="Expense">Expense</text>
+								
+							</g>
+						</g>
+					</g>
+					<g data-name="Including">
+						<g fill="#eee8d5" stroke="#33322E" data-name="Including">
+							<path d="M66.0 701.0 L132.0 724.3 L66.0 747.5 L0.0 724.3 Z" data-name="Including"></path>
+						</g>
+						<g transform="translate(22, 708.75)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Including">
+							<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Including">
+								<text x="36.0" y="13.5" stroke="none" text-anchor="middle" data-name="Including">Including</text>
+								
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>

@@ -167,11 +167,11 @@ Legend on the next page.
 
 ### Distributed vs Centralized Version Control
 
-| Distributed                                                   |                               | Centralized                                   |
-| ------------------------------------------------------------- | ----------------------------- | --------------------------------------------- |
-| branching is promoted and easy to perform                     | 5                             |
-| each clones/for may or may not be similar between clones/fork | _clones/checkout_             | each checkout conforms to the central version |
-| git, mercurial                                                | _known version control names_ | subversion, cvs, clearcase                    |
+| Distributed                                                   |                               | Centralized                                           |
+| ------------------------------------------------------------- | ----------------------------- | ----------------------------------------------------- |
+| branching is promoted and easy to perform                     | _branching_                   | branching is controlled and require proper management |
+| each clones/for may or may not be similar between clones/fork | _clones/checkout_             | each checkout conforms to the central version         |
+| git, mercurial                                                | _known version control names_ | subversion, cvs, clearcase                            |
 
 ---
 
@@ -223,7 +223,106 @@ Below is the 3D diagram of Torus:
 
 # Week 5
 
-## 07 November 2022 to 11 November 2022
+## 7 November 2022 - 11 November 2022 (Nomnoml)
+
+---
+
+### ERD Diagram
+
+Below is the ERD diagram by using Nomnoml:
+
+![ERD diagram](ERD_nom.svg)
+
+---
+
+### Git Workflow
+
+Below is the flowchart of Git Workflow:
+
+![Flowchart of Git Workflow](Git_workflow.svg)
+
+---
+
+# Week 6
+
+## 14 November 2022 - 17 November 2022
+
+---
+
+### 14 November 2022
+
+| Command            | Description                           | Remarks |
+| ------------------ | ------------------------------------- | ------- |
+| `cat /etc/passwd ` | User available                        |         |
+| `cat /etc/group`   | check groups available in the system. |         |
+| `env`              | To print environment variables        |         |
+| `apt-get update`   | To update apt packages.               |         |
+
+---
+
+### 15 November 2022
+
+| Command                               | Description                          | Remarks              |
+| ------------------------------------- | ------------------------------------ | -------------------- |
+| `apt-cache search docker `            | To search packages available in apt  |                      |
+| `usermod -aG docker $USER`            | To add user into docker group.       |                      |
+| `ps -aux`                             | To check processors.                 | In Windows: tasklist |
+| `__ &`                                | To send the process into background. |                      |
+| `docker run --rm -it wernight/funbox` | To run the funbox by using docker    |                      |
+
+---
+
+### 16 November 2022
+
+| Command                                        | Description                                                                             | Remarks                                                                  |
+| ---------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| `makedir -pm ~/parentdir/childdir1/childdir2 ` | Stand for parents, meaning that no error if existing, make parent directories as needed | m stand for mode, meaning set file mode (as in chmod), not a=rwx - umask |
+| `ug=rwx`                                       | Mean that user and group can read, write, execute                                       |                                                                          |
+| `kill 'PID'`                                   | Get the PID from `ps aux`, and kill the process specify process ID.                     |                                                                          |
+| `variable`                                     | In Ubuntu : $a; In Windows: %a%                                                         |                                                                          |
+
+---
+
+# Week 7
+
+## 21 November 2022 - 25 November 2022
+
+---
+
+| Command                                      | Description                                       | Remarks                          |
+| -------------------------------------------- | ------------------------------------------------- | -------------------------------- |
+| `docker container ls`                        | To list out all the items in the container        |                                  |
+| `mysql -h 172.17.0.2 -u root -pmy-secret-pw` | To execute the specific database                  | -h: host; -u: user; -p: password |
+| `docker inspect [container_name]`            | To heck the location of Docker’s internal volumes |                                  |
+| `docker run <put your parameters here>`      | To run specify image by using docker              |                                  |
+
+---
+
+# Week 8
+
+## 28 November 2022 - 23 December 2022 (Jhipster & Docker)
+
+---
+
+### 19 December 2022
+
+#### Step for pushing file into docker:
+
+- 1: docker login -u "username"
+- 2: docker tag firstimage YOUR_DOCKERHUB_NAME/firstimage
+- 3: docker push YOUR_DOCKERHUB_NAME/firstimage
+
+#### Step for pulling and run the images from docker:
+
+- 1: docker pull YOUR_DOCKERHUB_NAME/firstimage
+- 2: docker run -p 8081:8080 YOUR_DOCKERHUB_NAME/firstimage
+
+#### Steps for build dockerfile:
+
+- 1: FROM openjdk:latest (Find from docker hub)
+- 2: RUN mkdir /opt/jasonfyp
+- 3: COPY ./build/libs/jason-fyp-0.0.1-SNAPSHOT.jar /opt/jasonfyp
+- 4: CMD java -jar /opt/jasonfyp/jason-fyp-0.0.1-SNAPSHOT.jar
 
 ---
 
@@ -236,6 +335,6 @@ Below is the 3D diagram of Torus:
 | `cd`      | Get into the directory if with the directory name. | If not, then it will back to home page. |
 | `git`     | To keep track every changes of the file.           |                                         |
 
----
+--
 
 # END
