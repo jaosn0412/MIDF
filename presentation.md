@@ -1,7 +1,7 @@
 title: Internship Presentation
 author:
-name: Jason Wong
-url: https://github.com/jaosn0412
+  name: Jason Wong
+  url: https://github.com/jaosn0412
 style: basic-style.css
 output: presentation-cleaver.html
 
@@ -298,7 +298,7 @@ Below is the flowchart of Git Workflow:
 
 ---
 
-# Week 8
+# Week 8 - Week 11
 
 ## 28 November 2022 - 23 December 2022 (Jhipster & Docker)
 
@@ -310,12 +310,16 @@ Below is the flowchart of Git Workflow:
 
 - 1: docker login -u "username"
 - 2: docker tag firstimage YOUR_DOCKERHUB_NAME/firstimage
-- 3: docker push YOUR_DOCKERHUB_NAME/firstimage
+- 3: docker push YOUR_DOCKERHUB_NAME/firstimage:tagname
+
+---
 
 #### Step for pulling and run the images from docker:
 
 - 1: docker pull YOUR_DOCKERHUB_NAME/firstimage
 - 2: docker run -p 8081:8080 YOUR_DOCKERHUB_NAME/firstimage
+
+---
 
 #### Steps for build dockerfile:
 
@@ -323,6 +327,32 @@ Below is the flowchart of Git Workflow:
 - 2: RUN mkdir /opt/jasonfyp
 - 3: COPY ./build/libs/jason-fyp-0.0.1-SNAPSHOT.jar /opt/jasonfyp
 - 4: CMD java -jar /opt/jasonfyp/jason-fyp-0.0.1-SNAPSHOT.jar
+
+---
+
+# Week 12 - Week 14
+
+## 26 December 2022 - 13 January 2023 (Yaml & Blender)
+
+---
+
+- Yaml:
+  – A digestible data serialization language often used to create configuration files with any programming language. Designed for human interaction, YAML is a strict superset of JSON, another data serialization language. But because it's a strict superset, it can do everything that JSON can and more.
+
+---
+
+### Yaml File Sample
+
+Below is the Yaml File Sample by using Netbeans:
+
+![Yaml File](sample.jpg)
+---
+
+### Internet icon
+
+Below is the Internet icon by using Blender:
+
+![Icons](Icons.jpg)
 
 ---
 
@@ -335,6 +365,5 @@ Below is the flowchart of Git Workflow:
 | `cd`      | Get into the directory if with the directory name. | If not, then it will back to home page. |
 | `git`     | To keep track every changes of the file.           |                                         |
 
---
-
+--  
 # END
