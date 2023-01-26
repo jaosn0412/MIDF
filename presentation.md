@@ -345,7 +345,18 @@ Below is the flowchart of Git Workflow:
 
 Below is the Yaml File Sample by using Netbeans:
 
-![Yaml File](sample.jpg)
+![Sample Yaml File](sample.jpg)
+
+---
+
+### Yaml File 
+
+Below is the Yaml File by using Netbeans:
+
+![Yaml File](Yaml.jpg)
+
+This program is used to perform read, write and extract data from Yaml files. In this project there are three main java files, a test file, a main coding file, and an implementation file.
+
 ---
 
 ### Internet icon
